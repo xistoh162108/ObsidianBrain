@@ -14,4 +14,4 @@ print("Llama 응답:", response)
 # ChromaDB 설정
 settings = Settings(persist_directory="./chroma_db", chroma_db_impl="duckdb+parquet")
 client = Client(settings)
-print("ChromaDB 설정 완료")
+print("ChromaDB 설정 완료!")
